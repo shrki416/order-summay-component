@@ -70,15 +70,6 @@ select {
   height: 2.5rem;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .container {
   width: 20.4375rem;
   height: 35.4375rem;
