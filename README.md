@@ -28,9 +28,8 @@ Design a an order card that shows the total price and plan of the order.
 
 ### Links
 
-- Coming Soon 🚧
-<!-- - Solution URL: [Add solution URL here](https://shrki416.github.io/order-summay-component/)
-- Live Site URL: [Add live site URL here](https://shrki416.github.io/order-summay-component/) -->
+- Solution URL: [Working Solution](https://shrki416.github.io/order-summay-component/)
+- Live Site URL: [Live Site](https://shrki416.github.io/order-summay-component/)
 
 ### Built with
 
@@ -38,6 +37,7 @@ Design a an order card that shows the total price and plan of the order.
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Hosted on GitHub Pages
 
 ### Continued development
 
