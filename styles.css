@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Red+Hat+Display:wght@500;900&display=swap");
+
 /* Box sizing rules */
 *,
 *::before,
@@ -37,6 +39,8 @@ body {
   line-height: 1.5;
   display: grid;
   place-items: center;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -76,8 +80,108 @@ select {
 }
 
 .container {
-  width: 400px;
-  height: auto;
+  width: 20.4375rem;
+  height: 35.4375rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 10rem;
+  border-radius: 20px 20px 0 0;
+}
+
+.title {
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1.8;
+  color: #1f2e55;
+}
+
+.description {
+  padding: 0 2rem 1.5rem;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+  color: #717fa6;
+}
+
+.plan-container {
+  display: flex;
+  margin: 0 1.5rem;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 11px;
+  height: 5rem;
+  background-color: #f7f9ff;
+}
+
+.plan-title {
+  left: 0%;
+  right: -9.46%;
+  top: calc(50% - 19px / 2 - 10.5px);
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #1f2e55;
+}
+
+.plan-price {
+  font-weight: 500;
+  font-size: 14px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 19px / 2 + 11.5px);
+  color: #717fa6;
+}
+
+.plan-cta {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 13px;
+  color: #382ae1;
+  background: none;
+  border: none;
+}
+
+.plan-img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.proceed-btn {
+  margin: 1.5rem;
+  padding: 1rem 3rem;
+  width: 17.4375rem;
+  background-color: #382ae1;
+  border-radius: 0.6875rem;
+  font-size: 15px;
+  font-weight: 900;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  display: grid;
+  place-items: center;
+  margin: 0 auto 2rem;
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 15px;
+  color: #717fa6;
+  background: none;
+  border: none;
+  left: 35.17%;
+  right: 35.47%;
+  top: calc(50% - 20px / 2 + 241.5px);
+  cursor: pointer;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
