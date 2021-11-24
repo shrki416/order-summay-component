@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -12,6 +11,7 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Order summary card</title>
@@ -20,31 +20,20 @@
     <div class="container">
       <img src="./images/illustration-hero.svg" alt="hero" class="hero-img" />
 
-      <h1 class="title">Order Summary</h1>
-      <p class="description">
+      <h1>Order Summary</h1>
+      <p>
         You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!
       </p>
-      <div class="plan-container">
-        <div>
-          <img
-            src="./images/icon-music.svg"
-            alt="music icon"
-            class="plan-img"
-          />
-        </div>
-        <div>
-          <h3 class="plan-title">Annual Plan</h3>
-          <p class="plan-price">$59.99/year</p>
-        </div>
-        <div>
-          <button class="plan-cta">Change</button>
-        </div>
-      </div>
-      <div>
+
+      <img src="./images/icon-music.svg" alt="music icon" class="plan-img" />
+
+      <div>Annual Plan $59.99/year</div>
+
+      <button>Change</button>
+
+      <div class="buttons">
         <button class="proceed-btn">Proceed to Payment</button>
-      </div>
-      <div>
         <button class="cancel-btn">Cancel Order</button>
       </div>
     </div>
