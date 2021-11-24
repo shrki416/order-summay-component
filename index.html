@@ -18,6 +18,7 @@
   </head>
   <body>
     <div class="container">
+      <div class="bg-img"></div>
       <img src="./images/illustration-hero.svg" alt="hero" class="hero-img" />
 
       <h1>Order Summary</h1>
@@ -26,15 +27,22 @@
         device anywhere you like!
       </p>
 
-      <img src="./images/icon-music.svg" alt="music icon" class="plan-img" />
-
-      <div>Annual Plan $59.99/year</div>
-
-      <button>Change</button>
+      <div>
+        <article>
+          <img
+            src="./images/icon-music.svg"
+            alt="music icon"
+            class="plan-img"
+          />
+          <h4>Annual Plan</h4>
+          <p>$59.99/year</p>
+        </article>
+        <button class="btn btn-change">Change</button>
+      </div>
 
       <div class="buttons">
-        <button class="proceed-btn">Proceed to Payment</button>
-        <button class="cancel-btn">Cancel Order</button>
+        <button class="btn btn-primary">Proceed to Payment</button>
+        <button class="btn btn-secondary">Cancel Order</button>
       </div>
     </div>
   </body>

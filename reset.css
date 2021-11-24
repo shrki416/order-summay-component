@@ -35,10 +35,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  display: grid;
-  place-items: center;
-  background-color: #e0e8ff;
-  font-family: "Red Hat Display", sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
