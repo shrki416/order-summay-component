@@ -9,6 +9,7 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --white: hsl(0, 0%, 100%);
 }
 
 img {
@@ -36,7 +37,7 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: var(--white);
   margin: 20px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
@@ -56,7 +57,7 @@ body {
 
 .btn-primary {
   background-color: var(--bright-blue);
-  color: #fff;
+  color: var(--white);
   padding: 10px;
 }
 
