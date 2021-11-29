@@ -104,7 +104,7 @@ body {
 p {
   font-size: var(--fs);
   color: var(--desaturated-blue);
-  line-height: 1.6;
+  line-height: 1.6rem;
 }
 
 .description {
