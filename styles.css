@@ -129,8 +129,11 @@ p {
 }
 
 .container h1 {
-  margin: 45px 48px 17px;
+  margin: 2.1825rem 3rem 1.0625rem;
+  font-size: 1.75rem;
+  font-weight: 900;
   color: var(--dark-blue);
+  line-height: 2.315rem;
 }
 
 .container .buttons {
