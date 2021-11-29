@@ -24,7 +24,8 @@ Design a an order card that shows the total price and plan of the order.
 
 ### Screenshot
 
-![solution preview](./images/solution.png)
+![Design comparison for the Order summary card coding challenge](./design/images/design-comparison.png)
+![Accessibility Report for the Order summary Card coding challenge](./design/images/accessibility-report.png)
 
 ### Links
 
