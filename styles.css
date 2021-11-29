@@ -10,7 +10,6 @@
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
   --white: hsl(0, 0%, 100%);
-  --black: #1f2e55;
   --hover: #766cf1;
 }
 
@@ -74,7 +73,7 @@ body {
 }
 
 .btn-secondary:hover {
-  color: var(--black);
+  color: var(--dark-blue);
   cursor: pointer;
 }
 
@@ -123,6 +122,10 @@ p {
 
 .container .pricing img {
   margin-right: 1.25rem;
+}
+
+.container .pricing article div p:first-child {
+  color: var(--dark-blue);
 }
 
 .container h1 {
