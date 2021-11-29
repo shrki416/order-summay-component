@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,32 +20,33 @@
     <div class="container">
       <div class="bg-img"></div>
       <img src="./images/illustration-hero.svg" alt="hero" class="hero-img" />
+      <main>
+        <h1>Order Summary</h1>
+        <p class="description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
 
-      <h1>Order Summary</h1>
-      <p class="description">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
+        <div class="pricing">
+          <article>
+            <img
+              src="./images/icon-music.svg"
+              alt="music icon"
+              class="plan-img"
+            />
+            <div>
+              <p>Annual Plan</p>
+              <p>$59.99/year</p>
+            </div>
+          </article>
+          <button class="btn btn-change">Change</button>
+        </div>
 
-      <div class="pricing">
-        <article>
-          <img
-            src="./images/icon-music.svg"
-            alt="music icon"
-            class="plan-img"
-          />
-          <div>
-            <h4>Annual Plan</h4>
-            <p>$59.99/year</p>
-          </div>
-        </article>
-        <button class="btn btn-change">Change</button>
-      </div>
-
-      <div class="buttons">
-        <button class="btn btn-primary">Proceed to Payment</button>
-        <button class="btn btn-secondary">Cancel Order</button>
-      </div>
+        <div class="buttons">
+          <button class="btn btn-primary">Proceed to Payment</button>
+          <button class="btn btn-secondary">Cancel Order</button>
+        </div>
+      </main>
     </div>
   </body>
 </html>
